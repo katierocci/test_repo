@@ -1,10 +1,11 @@
----
-title: "Test_RMarkdown"
-output: 
-  html_document: 
-    keep_md: yes
-date: "2023-02-10"
----
+A single sentence
+
+```{r}
+#using cars code
+summary(cars)
+plot(cars$speed, cars$dist)
+```
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
